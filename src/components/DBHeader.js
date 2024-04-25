@@ -30,7 +30,7 @@ navigate("/login",{replace:true});
 
    
     <div className='w-full flex items-center justify-between gap-3'>
-        <p className='text-2xl text-headingColor'>Welcome to City
+        <p className='text-2xl text-headingColor'>Welcome to LeafyHub
         {user ?.name && (
             <span className='block text-base text-gray-500'>{`Hello ${user?.name}...!`}</span>
         )}
